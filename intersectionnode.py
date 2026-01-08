@@ -3,9 +3,7 @@ class ListNode:
         self.val = x
         self.next = None
 
-def getIntersectionNode(
-         headA: ListNode, headB: ListNode
-    ) :
+def getIntersectionNode(headA: ListNode, headB: ListNode) :
 
     t1, t2 = headA, headB
 
